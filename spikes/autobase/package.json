@@ -1,0 +1,15 @@
+{
+  "name": "syntrix-spike-autobase",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "description": "Phase 0 Spike A — prove Autobase multi-writer determinism for Syntrix",
+  "scripts": {
+    "spike": "node index.js"
+  },
+  "dependencies": {
+    "autobase": "^7.28.1",
+    "corestore": "^7.9.1",
+    "b4a": "^1.6.7"
+  }
+}

@@ -1,0 +1,14 @@
+node_modules/
+dist/
+build/
+
+# Spike B persisted dev seed — NEVER commit (holds testnet keys)
+spikes/wdk/.seed
+
+# Pear / Bare artifacts
+.pear/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

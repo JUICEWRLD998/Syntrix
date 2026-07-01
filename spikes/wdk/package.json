@@ -1,0 +1,14 @@
+{
+  "name": "syntrix-spike-wdk",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "description": "Phase 0 Spike B — prove WDK self-custodial USD-token transfer on Sepolia for Syntrix",
+  "scripts": {
+    "spike": "node index.js"
+  },
+  "dependencies": {
+    "@tetherto/wdk-wallet-evm": "^1.0.0-beta.14",
+    "bip39": "^3.1.0"
+  }
+}
